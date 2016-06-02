@@ -27,6 +27,55 @@ a {
   margin: 0;
 }
 
+body {
+  font-family:'Quattrocento Sans' !important;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-family:Fira Sans;
+}
+
+p {
+  font-family: 'Quattrocento Sans';
+  font-size: 14px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
+blockquote {
+  font-family: 'Quattrocento Sans';
+  font-size: 21px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+  line-height: 30px;
+}
+pre {
+  font-family: 'Quattrocento Sans';
+  font-size: 13px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+  line-height: 18.5714px;
+}
+
+/* FONTS */
+
+@font-face {font-family: "Quattrocento Sans";
+    src: url("http://db.onlinewebfonts.com/t/80c5a8d1c5f93a81f9d234152db6b63d.eot");
+    src: url("http://db.onlinewebfonts.com/t/80c5a8d1c5f93a81f9d234152db6b63d.eot?#iefix") format("embedded-opentype"),
+    url("http://db.onlinewebfonts.com/t/80c5a8d1c5f93a81f9d234152db6b63d.woff2") format("woff2"),
+    url("http://db.onlinewebfonts.com/t/80c5a8d1c5f93a81f9d234152db6b63d.woff") format("woff"),
+    url("http://db.onlinewebfonts.com/t/80c5a8d1c5f93a81f9d234152db6b63d.ttf") format("truetype"),
+    url("http://db.onlinewebfonts.com/t/80c5a8d1c5f93a81f9d234152db6b63d.svg#Quattrocento Sans") format("svg");
+}
+
+@font-face {
+  font-family: Fira Sans;
+  src: url(../Fira Sans/FiraSans-Bold.otf);
+}
+
 /* Search Form */
 
 .nav-bar {
@@ -333,13 +382,13 @@ li#search {
   opacity: 1;
 }
 
-.4sec {
+/*.4sec {
   background: tomato;
   padding: 5px;
   color: white;
   margin: 0;
   padding: 8px 15px;
-}
+}*/
 
 .description {
   background: aliceblue;
@@ -495,6 +544,8 @@ table.time-table tr :nth-child(3) {
 
 .footer span {
   padding-left: 20px;
+  float: left;
+  margin-right: 10px;
 }
 
 .bottom-cut {
